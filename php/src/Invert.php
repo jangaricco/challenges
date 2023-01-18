@@ -3,13 +3,6 @@
 namespace Challenges;
 
 Class Invert {
-  private $input;
-  private $target; 
-  private $str;
-  private $reversed;
-  private $afterStr;
-  private $type;
-  private $arr;
 
   public function invert($input, $type) {
     $target = ['.', ','];

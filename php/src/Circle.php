@@ -3,7 +3,7 @@
 namespace Challenges;
 
 Class Circle {
-  private $PI = '3.14';
+  const PI = '3.14';
   private $r;
 
   public function __construct($r) {
@@ -11,10 +11,10 @@ Class Circle {
   }
 
   public function getArea(){
-    return $this->r * $this->r * $this->PI;
+    return $this->r * $this->r * SELF::PI;
   }
 
   public function getPerimeter()  {
-    return $this->r * 2 * $this->PI;
+    return $this->r * 2 * SELF::PI;
   }
 }

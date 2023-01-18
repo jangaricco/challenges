@@ -4,10 +4,6 @@ namespace Challenges;
 
 
 Class MaskCard {
-  private string $cardDigits;
-  private $num;
-  private $str = [];
-  private $mcd;
 
   public function maskCardDigits($cardDigits) {
     $cardDigits = mb_convert_kana($cardDigits, "n", "utf-8");
